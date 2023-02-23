@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialCard = (props) => {
   return (
-    <div className='flex items-center p-[30px] bg-[#FFFFFF] border-2 border-[#DEDEDE] rounded-lg w-[327px] h-[244px]'>
+    <div className='flex items-center p-[30px] bg-[#FFFFFF] border-2 border-[#DEDEDE] rounded-lg w-[327px] xl:w-[327px] lg:w-[250px] h-[244px]'>
         <section className='flex flex-col items-start gap-[20px]'>
             <div className='flex items-start gap-[5px]'>
                 <img src={props.image} alt='review'></img>

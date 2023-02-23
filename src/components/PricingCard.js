@@ -4,7 +4,7 @@ import disable from '../assets/disable check.png'
 
 const PricingCard = (props) => {
   return (
-    <div className={`flex flex-col items-center w-[327px] ${props.theme} gap-[35px] pt-[50px] pb-[50px] pl-[40px] pr-[40px] rounded-lg`}>
+    <div className={`flex flex-col items-center w-[327px] lg:w-[300px] xl:w-[327px] ${props.theme} gap-[35px] pt-[50px] pb-[50px] pl-[40px] pr-[40px] rounded-lg`}>
       <h3 className={`text-[24px] font-bold text-${props.theme} text-center`}>{props.title}</h3>
       <h5 className='text-[16px] font-bold text-center text-[#737373] w-[160px]'>Organize across all apps by hand</h5>
       <div className='flex items-center gap-[10px]'>

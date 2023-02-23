@@ -6,9 +6,9 @@ import FooterCard from './FooterCard'
 
 const Footer = () => {
   return (
-    <section className='absolute h-[1005px] top-[7780px] md:top-[3907px] md:h-[414px] bg-[#FAFAFA] flex flex-col items-center justify-center min-w-full gap-[40px]'>
-        <div className='flex flex-col md:flex-row items-start md:items-center gap-[30px] md:h-[205px]'>
-            <div className='flex flex-col items-start gap-[25px] md:w-[238px]'>
+    <section className='absolute h-[1005px] top-[7780px] lg:top-[3907px] lg:h-[414px] bg-[#FAFAFA] flex flex-col items-center justify-center min-w-full gap-[40px]'>
+        <div className='flex flex-col lg:flex-row items-start md:items-center gap-[30px] lg:gap-0 xl:gap-[30px] lg:h-[205px]'>
+            <div className='flex flex-col items-start gap-[25px] lg:w-[238px]'>
                 <h3 className='text-[#252B42] text-[24px] font-bold'>Get In Touch</h3>
                 <p className='text-[#737373] text-[14px] font-normal'>the quick fox jumps over the lazy dog</p>
                 <div className='flex items-center justify-center gap-[20px] w-[112px] h-[24px]'>
