@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from './Navbar';
 const Home = () => {
   return (
-    <div className='flex relative min-w-full'>
+    <div className='flex relative min-w-full' id='home'>
       <div>
         <div className='w-[100%] absolute matrix h-[1269px] xl:h-[817px] bg-no-repeat bg-cover' style={{backgroundImage:"url('coverimage.jpg')"}}></div>
         <div className='overLay xl:h-[817px] h-[1269px] absolute w-[100%]'></div>
