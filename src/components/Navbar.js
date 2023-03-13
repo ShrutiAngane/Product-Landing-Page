@@ -12,16 +12,16 @@ const Navbar = () => {
   const[hamburger,sethamburger]=useState(false)
   return (
     <>
-    <header className='absolute flex flex-row justify-end items-center min-w-full lg:w-[875px] h-[91px] xl:w-[1057px] z-20'>
+    <header className=' fixed flex flex-row justify-end items-center min-w-full lg:w-[875px] h-[91px] xl:w-[1057px] z-20'>
       <h1 className={`${hamburger?'text-[#737373] text-[20px]':'text-[#FFFFFF] text-[24px]'} font-bold absolute left-[30px]`}>Physionic</h1>
       <nav className='hidden lg:flex lg:flex-row absolute lg:h-[91px] xl:w-[800px] lg:w-[641px] justify-between items-center lg:right-[30px]'>
         <ul className='lg:flex-row'>
-          <Link to='home' smooth={true} duration={500} className='text-[#FFFFFF] text-[20px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Home</Link>
-          <Link to='features' smooth={true} duration={500} className='text-[#FFFFFF] text-[20px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Product</Link>
-          <Link to='pricing' smooth={true} duration={500} className='text-[#FFFFFF] text-[20px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Pricing</Link>
-          <Link to='contact' smooth={true} duration={500} className='text-[#FFFFFF] text-[20px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Contact</Link>
+          <Link to='home' smooth={true} duration={500} className='text-[#FFFFFF] text-[18px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Home</Link>
+          <Link to='features' smooth={true} duration={500} className='text-[#FFFFFF] text-[18px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Product</Link>
+          <Link to='pricing' smooth={true} duration={500} className='text-[#FFFFFF] text-[18px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Pricing</Link>
+          <Link to='contact' smooth={true} duration={500} className='text-[#FFFFFF] text-[18px] font-semibold xl:p-[25px] lg:p-[15px] hover:cursor-pointer'>Contact</Link>
         </ul>
-        <button className='w-[190px] h-[52px] text-[#FFFFFF] bg-[#23A6F0] rounded-xl'>Get Quote Now</button>
+        <button className='w-[180px] h-[40px] text-[#FFFFFF] bg-[#23A6F0] rounded-xl'>Get Quote Now</button>
         </nav>
         <nav className='lg:hidden absolute flex h-[91px] items-center justify-between'>
           <ul className={`${hamburger?'w-[163px]':''} flex`}>
