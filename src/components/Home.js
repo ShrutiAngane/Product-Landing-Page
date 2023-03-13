@@ -1,9 +1,10 @@
 import React from 'react'
-// import { Route, Router } from 'react-router-dom';
 import Navbar from './Navbar';
+
+
 const Home = () => {
   return (
-    <div className='flex flex-col min-w-full matrix h-[100vh] bg-no-repeat bg-cover' id='home'style={{backgroundImage:"url('coverimage.jpg')"}}>
+    <div className='flex flex-col min-w-full h-[100vh] bg-no-repeat bg-cover' id='home' style={{backgroundImage:"url('coverimage.jpg')"}}>
         <div className='overLay h-[100vh] absolute w-[100%]'></div>
         <Navbar/>
         <section className='flex flex-col justify-center items-center min-w-full h-[100vh] z-10'>
