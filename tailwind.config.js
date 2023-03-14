@@ -6,12 +6,13 @@ module.exports = {
   ],
   mode:"jit",
   theme: {
-    extend: {},
-  },
-  screens: {
-    xs:"320px",
-    ss: "480px",
-    xxl: "1700px",
+    extend: {
+      screens: {
+        xs:"320px",
+        ss: "480px",
+        xxl: "1700px",
+      },
+    },
   },
   plugins: [],
 }
