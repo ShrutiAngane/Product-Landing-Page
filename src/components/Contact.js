@@ -1,8 +1,10 @@
 import React from 'react'
+import Animate from '../utils/Animate'
 
 const Contact = () => {
   return (
-    <section className='top-[7450px] lg:top-[3640px] lg:h-[257px] min-w-full h-[332px] bg-[#252B42] flex items-center justify-center' id='contact'>
+    <section className='top-[7450px] lg:top-[3640px] lg:h-[257px] w-[100%] h-[332px] bg-[#252B42] flex items-center justify-center' id='contact'>
+      <Animate>
         <div className='flex flex-col items-center pt-[60px] pb-[60px] gap-[30px] lg:hidden'>
             <h3 className='font-bold text-[24px] text-center text-[#FFFFFF] w-[258px]'>Subscribe For Latest Newsletter</h3>
             <div className='flex w-[337px] h-[58px]'>
@@ -10,7 +12,7 @@ const Contact = () => {
             <button className=' bg-[#23A6F0] border border-[#E6E6E6] w-[117px] rounded-r-lg text-center text-[#FFFFFF]'>Subscribe</button>
             </div>
         </div>
-        <div className='lg:flex lg:items-center xl:gap-[225px] lg:gap-[120px] max-[1024px]:hidden'>
+        <div className='lg:flex lg:items-center lg:justify-center xl:gap-[225px] lg:gap-[120px] max-[1024px]:hidden'>
             <div className='w-[439px] flex flex-col items-start'>
             <h2 className='font-bold text-[40px] text-[#FFFFFF] w-full'>Get In Touch</h2>
             <p className='text-[14px] text-[#FFFFFF] font-normal'>The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
@@ -20,6 +22,7 @@ const Contact = () => {
             <button className=' bg-[#23A6F0] border border-[#E6E6E6] w-[117px] rounded-r-lg text-center text-[#FFFFFF]'>Subscribe</button>
             </div>
         </div>
+      </Animate>
     </section>
   )
 }
